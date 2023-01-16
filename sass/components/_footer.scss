@@ -1,0 +1,27 @@
+.footer-background {
+  background-color: var(--brand-color-six);
+  padding-top: 60px;
+  padding-bottom: 51px;
+  color: var(--brand-color-one);
+
+  &__container {
+    display: flex;
+  }
+
+  &__box {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+}
+
+.media-footer {
+  margin-left: 70px;
+
+  &__heading {
+    color: var(--brand-color-one);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+    margin-bottom: 20px;
+  }
+}

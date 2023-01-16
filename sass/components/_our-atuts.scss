@@ -1,0 +1,29 @@
+.our-atuts {
+  padding-bottom: 0;
+
+  &__icon {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--brand-color-three);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--brand-color-four);
+  }
+}

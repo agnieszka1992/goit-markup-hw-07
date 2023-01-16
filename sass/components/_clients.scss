@@ -1,0 +1,26 @@
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid var(--brand-color-eight);
+  fill: var(--brand-color-eight);
+  cursor: pointer;
+  gap: 30px;
+
+  transition: border-color 250ms var(--transition-timing-function),
+    fill 250ms var(--transition-timing-function);
+
+  & svg {
+    transition: fill 250ms var(--transition-timing-function);
+  }
+
+  &:hover,
+  &:focus {
+    fill: var(--brand-color);
+    border-color: var(--brand-color);
+  }
+}

@@ -1,0 +1,28 @@
+.contact-links {
+  display: flex;
+  gap: 50px;
+
+  &__details {
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    color: var(--brand-color-four);
+
+    transition: color 250ms var(--transition-timing-function);
+  }
+
+  &__details:hover,
+  &__details:focus {
+    color: var(--brand-color);
+  }
+
+  &__icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+}
