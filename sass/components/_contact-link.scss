@@ -14,11 +14,11 @@
     color: var(--brand-color-four);
 
     transition: color 250ms var(--transition-timing-function);
-  }
 
-  &__details:hover,
-  &__details:focus {
-    color: var(--brand-color);
+    &:hover,
+    &:focus {
+      color: var(--brand-color);
+    }
   }
 
   &__icon {

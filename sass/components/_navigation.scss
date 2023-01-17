@@ -21,16 +21,17 @@
 
     &--underline {
       color: var(--brand-color);
-    }
-    &--underline::after {
-      content: "";
-      position: absolute;
-      bottom: -34px;
-      height: 4px;
-      border-radius: 2px;
-      left: 0;
-      width: 100%;
-      background-color: var(--brand-color);
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -34px;
+        height: 4px;
+        border-radius: 2px;
+        left: 0;
+        width: 100%;
+        background-color: var(--brand-color);
+      }
     }
   }
 }

@@ -15,11 +15,11 @@
     &--grey {
       color: rgba(255, 255, 255, 0.6);
       transition: color 250ms var(--transition-timing-function);
-    }
 
-    &--grey:focus,
-    &--grey:hover {
-      color: var(--brand-color);
+      &:focus,
+      &:hover {
+        color: var(--brand-color);
+      }
     }
   }
 
